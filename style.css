@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.outside {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/********************* OVERLAY ****************/
+
+.overlay {
+    border-radius: 20px;
+    background-color: white;
+    width: 265px;
+    height: fit-content;
+}
+
+/********************* IMAGE ****************/
+
+.round {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 13px;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+/********************* PARAGRAPHS ****************/
+
+.content p {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.content p:nth-child(2) {
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content p:nth-child(3) {
+    color: hsl(220, 15%, 55%);
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+/********************* ATTRIBUTION ****************/
+
+.attribution { 
+    margin-bottom: 10px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 44%, 39%);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.attribution a:hover {
+    color:hsl(209, 100%, 35%);
+}
