@@ -57,21 +57,3 @@ img {
     font-size: 13px;
     margin-bottom: 40px;
 }
-
-/********************* ATTRIBUTION ****************/
-
-.attribution { 
-    margin-bottom: 10px;
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 44%, 39%);
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.attribution a:hover {
-    color:hsl(209, 100%, 35%);
-}
